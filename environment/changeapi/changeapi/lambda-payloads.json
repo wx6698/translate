@@ -1,0 +1,23 @@
+{
+    "changeapi": {
+        "apigateway": {
+            "path": "/Prod/change",
+            "method": {
+                "value": "PUT",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "queryString": "\n",
+            "body": {
+                "amount": "1.25"
+            }
+        }
+    }
+}
